@@ -6,10 +6,25 @@
         xmlns:local="clr-namespace:FoodHelper"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
-        <Button Content="Feed me!" HorizontalAlignment="Left" Height="49" Margin="80,334,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label 
+            Content="What's for dinner?" 
+            HorizontalAlignment="Center" 
+            Margin="0,10,0,0" 
+            VerticalAlignment="Top" 
+            FontSize="36"
+        />
         
-        <Label Content="Select a protein" HorizontalAlignment="Left" Margin="89,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.983,0.551" Height="25" Width="122"/>
+        <Label 
+            Content="Select a protein" 
+            HorizontalAlignment="Left" 
+            Margin="89,77,0,0" 
+            VerticalAlignment="Top" 
+            RenderTransformOrigin="-1.983,0.551" 
+            Height="25" 
+            Width="122"
+        />
         <ComboBox 
             Name="ProteinComboBox"
             HorizontalAlignment="Left" 
@@ -18,7 +33,14 @@
             Width="120"
         />
         
-        <Label Content="Select a carb" HorizontalAlignment="Left" Margin="89,147,0,0" VerticalAlignment="Top" Height="26" Width="120"/>
+        <Label 
+            Content="Select a carb" 
+            HorizontalAlignment="Left" 
+            Margin="89,147,0,0" 
+            VerticalAlignment="Top" 
+            Height="26" 
+            Width="120"
+        />
         <ComboBox 
             Name="CarbComboBox"
             HorizontalAlignment="Left" 
@@ -27,7 +49,14 @@
             Width="120"
         />
         
-        <Label Content="Select effort level" HorizontalAlignment="Left" Margin="89,224,0,0" VerticalAlignment="Top" Height="26" Width="122"/>
+        <Label 
+            Content="Select effort level" 
+            HorizontalAlignment="Left" 
+            Margin="89,224,0,0" 
+            VerticalAlignment="Top" 
+            Height="26" 
+            Width="122"
+        />
         <ComboBox 
             Name="EffortComboBox"
             HorizontalAlignment="Left" 
@@ -36,9 +65,39 @@
             Width="120"
         />
         
-        <Label Content="What's for dinner?" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Margin="314,97,0,0" Text="Ingredients:" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Height="183"/>
-        <TextBox HorizontalAlignment="Left" Margin="512,0,0,0" Text="Recipe:" TextWrapping="Wrap" VerticalAlignment="Center" Width="232" Height="239"/>
+        <Button 
+            Name="FeedMeButton"
+            Content="Feed me!" 
+            HorizontalAlignment="Left" 
+            Height="49" 
+            Margin="80,334,0,0" 
+            VerticalAlignment="Top" 
+            Width="140"
+            Click="FeedMeButton_Click"
+        />
+        
+        <TextBox 
+            Name="IngredientsTextBox"
+            HorizontalAlignment="Left" 
+            Margin="314,97,0,0" 
+            Text="Ingredients:" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="117" 
+            Height="183"
+        />
+        
+        <TextBox 
+            Name="RecipeTextBox"
+            HorizontalAlignment="Left" 
+            Margin="512,0,0,0" 
+            Text="Recipe:" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Center" 
+            Width="232" 
+            Height="239"
+        />
 
     </Grid>
+    
 </Window>

@@ -1,17 +1,7 @@
-﻿using System;
+﻿using FoodHelperClassLibrary;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FoodHelper
 {
@@ -23,7 +13,29 @@ namespace FoodHelper
         public MainWindow()
         {
             InitializeComponent();
+            FillComboBoxes();
         }
 
+        private void FillComboBoxes()
+        {
+            ProteinComboBox.ItemsSource = Enum.GetValues(typeof(ProteinOptions));
+            CarbComboBox.ItemsSource = Enum.GetValues(typeof(CarbOptions));
+            EffortComboBox.ItemsSource = Enum.GetValues(typeof(EffortOptions));
+        }
+
+        private void FeedMeButton_Click(object sender, RoutedEventArgs e)
+        {
+            //get selected values
+            var search = new Search()
+            { 
+                Protein = (ProteinOptions?)ProteinComboBox.SelectedItem,
+                Carb = (CarbOptions?)CarbComboBox.SelectedItem,
+                Effort = (EffortOptions?)EffortComboBox.SelectedItem,
+            };
+
+            //execute search
+
+            //display top result
+        }
     }
 }
