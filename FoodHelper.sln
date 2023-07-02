@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHelper", "FoodHelper.csproj", "{8EC1835C-78D3-45E1-8A59-32A0D7446491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHelperClassLibrary", "..\FoodHelperClassLibrary\FoodHelperClassLibrary.csproj", "{C64EF6D2-2FFD-445E-954D-74A5C59FA740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC1835C-78D3-45E1-8A59-32A0D7446491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC1835C-78D3-45E1-8A59-32A0D7446491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC1835C-78D3-45E1-8A59-32A0D7446491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC1835C-78D3-45E1-8A59-32A0D7446491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64EF6D2-2FFD-445E-954D-74A5C59FA740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64EF6D2-2FFD-445E-954D-74A5C59FA740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64EF6D2-2FFD-445E-954D-74A5C59FA740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64EF6D2-2FFD-445E-954D-74A5C59FA740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4B7BF95-E759-4520-AF2A-195688CFFB16}
+	EndGlobalSection
+EndGlobal

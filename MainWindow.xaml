@@ -1,0 +1,44 @@
+﻿<Window x:Class="FoodHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodHelper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Feed me!" HorizontalAlignment="Left" Height="49" Margin="80,334,0,0" VerticalAlignment="Top" Width="140"/>
+        
+        <Label Content="Select a protein" HorizontalAlignment="Left" Margin="89,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.983,0.551" Height="25" Width="122"/>
+        <ComboBox 
+            Name="ProteinComboBox"
+            HorizontalAlignment="Left" 
+            Margin="89,107,0,0" 
+            VerticalAlignment="Top" 
+            Width="120"
+        />
+        
+        <Label Content="Select a carb" HorizontalAlignment="Left" Margin="89,147,0,0" VerticalAlignment="Top" Height="26" Width="120"/>
+        <ComboBox 
+            Name="CarbComboBox"
+            HorizontalAlignment="Left" 
+            Margin="89,178,0,0" 
+            VerticalAlignment="Top" 
+            Width="120"
+        />
+        
+        <Label Content="Select effort level" HorizontalAlignment="Left" Margin="89,224,0,0" VerticalAlignment="Top" Height="26" Width="122"/>
+        <ComboBox 
+            Name="EffortComboBox"
+            HorizontalAlignment="Left" 
+            Margin="89,250,0,0" 
+            VerticalAlignment="Top" 
+            Width="120"
+        />
+        
+        <Label Content="What's for dinner?" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Margin="314,97,0,0" Text="Ingredients:" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Height="183"/>
+        <TextBox HorizontalAlignment="Left" Margin="512,0,0,0" Text="Recipe:" TextWrapping="Wrap" VerticalAlignment="Center" Width="232" Height="239"/>
+
+    </Grid>
+</Window>
