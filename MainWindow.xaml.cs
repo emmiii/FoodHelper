@@ -10,7 +10,7 @@ namespace FoodHelper
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Dish> Dishes { get; set; }
+        public List<Dish> Dishes { get; set; } = new List<Dish>();
 
         public MainWindow()
         {
@@ -28,7 +28,6 @@ namespace FoodHelper
 
         private void FeedMeButton_Click(object sender, RoutedEventArgs e)
         {
-            //get selected values
             var search = new Search()
             { 
                 Protein = (ProteinOptions?)ProteinComboBox.SelectedItem,
@@ -37,9 +36,15 @@ namespace FoodHelper
             };
 
             //execute search
-
+            var searchResult = search.ExecuteSearch(Dishes);
 
             //display top result
+            SetRecipeText(searchResult);
+        }
+
+        private void SetRecipeText(Dish dish)
+        {
+            RecipeTextBox.Text = dish.Name + "\n\n" + dish.Recipe;
         }
 
         private void CreateDefaultDishes()
