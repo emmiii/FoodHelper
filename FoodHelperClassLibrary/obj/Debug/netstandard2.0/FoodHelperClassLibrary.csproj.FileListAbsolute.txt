@@ -1,0 +1,9 @@
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\obj\Debug\netstandard2.0\FoodHelperClassLibrary.csprojAssemblyReference.cache
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\obj\Debug\netstandard2.0\FoodHelperClassLibrary.AssemblyInfoInputs.cache
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\obj\Debug\netstandard2.0\FoodHelperClassLibrary.AssemblyInfo.cs
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\obj\Debug\netstandard2.0\FoodHelperClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\bin\Debug\netstandard2.0\FoodHelperClassLibrary.deps.json
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\bin\Debug\netstandard2.0\FoodHelperClassLibrary.dll
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\bin\Debug\netstandard2.0\FoodHelperClassLibrary.pdb
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\obj\Debug\netstandard2.0\FoodHelperClassLibrary.dll
+C:\Users\frisk\source\repos\FoodHelperClassLibrary\obj\Debug\netstandard2.0\FoodHelperClassLibrary.pdb
